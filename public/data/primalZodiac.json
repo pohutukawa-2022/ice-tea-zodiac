@@ -1,0 +1,868 @@
+{
+  "zodiacMeta": [
+    {
+      "id": 1,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Chameleon"
+    },
+    {
+      "id": 2,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Leopard"
+    },
+    {
+      "id": 3,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Unicorn"
+    },
+    {
+      "id": 4,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Dolphin"
+    },
+    {
+      "id": 5,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Walrus"
+    },
+    {
+      "id": 6,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Pufferfish"
+    },
+    {
+      "id": 7,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Sloth"
+    },
+    {
+      "id": 8,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Meerkat"
+    },
+    {
+      "id": 9,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Bird-of-Paradise"
+    },
+    {
+      "id": 10,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Handfish"
+    },
+    {
+      "id": 11,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Snake",
+      "primalZodiac": "BoaConstrictor"
+    },
+    {
+      "id": 12,
+      "westernZodiac": "Aquarius",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Panther"
+    },
+    {
+      "id": 13,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Dog",
+      "primalZodiac": "DobermanPinscher"
+    },
+    {
+      "id": 14,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "TyrannosaurusRex"
+    },
+    {
+      "id": 15,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Horse",
+      "primalZodiac": "HammerheadShark"
+    },
+    {
+      "id": 16,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Gorilla"
+    },
+    {
+      "id": 17,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Hippopotamus"
+    },
+    {
+      "id": 18,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Dodo"
+    },
+    {
+      "id": 19,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Llama"
+    },
+    {
+      "id": 20,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Piranha"
+    },
+    {
+      "id": 21,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Goldfinch"
+    },
+    {
+      "id": 22,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Catfish"
+    },
+    {
+      "id": 23,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Snake",
+      "primalZodiac": "PrayingMantis"
+    },
+    {
+      "id": 24,
+      "westernZodiac": "Aries",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Rhinoceros"
+    },
+    {
+      "id": 25,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Dog",
+      "primalZodiac": "PitBull"
+    },
+    {
+      "id": 26,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Hornet"
+    },
+    {
+      "id": 27,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Horse",
+      "primalZodiac": "HermitCrab"
+    },
+    {
+      "id": 28,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "EmperorTamarin"
+    },
+    {
+      "id": 29,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Ox",
+      "primalZodiac": "BlackBear"
+    },
+    {
+      "id": 30,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Lobster"
+    },
+    {
+      "id": 31,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Turtle"
+    },
+    {
+      "id": 32,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Seahorse"
+    },
+    {
+      "id": 33,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Iguana"
+    },
+    {
+      "id": 34,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Duck"
+    },
+    {
+      "id": 35,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Snail"
+    },
+    {
+      "id": 36,
+      "westernZodiac": "Cancer",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "VampireBat"
+    },
+    {
+      "id": 37,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Boxer"
+    },
+    {
+      "id": 38,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Eagle"
+    },
+    {
+      "id": 39,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Salmon"
+    },
+    {
+      "id": 40,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Woodpecker"
+    },
+    {
+      "id": 41,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Ant"
+    },
+    {
+      "id": 42,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Spider"
+    },
+    {
+      "id": 43,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "WeaverFinch"
+    },
+    {
+      "id": 44,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Aardvark"
+    },
+    {
+      "id": 45,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Bee"
+    },
+    {
+      "id": 46,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Mole"
+    },
+    {
+      "id": 47,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Alligator"
+    },
+    {
+      "id": 48,
+      "westernZodiac": "Capricorn",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "KomodoDragon"
+    },
+    {
+      "id": 49,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Deer"
+    },
+    {
+      "id": 50,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Hummingbird"
+    },
+    {
+      "id": 51,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Horse",
+      "primalZodiac": "GreatWhiteShark"
+    },
+    {
+      "id": 52,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Seal"
+    },
+    {
+      "id": 53,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Coyote"
+    },
+    {
+      "id": 54,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Cricket"
+    },
+    {
+      "id": 55,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Toucan"
+    },
+    {
+      "id": 56,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Chipmunk"
+    },
+    {
+      "id": 57,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Parrot"
+    },
+    {
+      "id": 58,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Centipede"
+    },
+    {
+      "id": 59,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Lemur"
+    },
+    {
+      "id": 60,
+      "westernZodiac": "Gemini",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Chimpanzee"
+    },
+    {
+      "id": 61,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Dog",
+      "primalZodiac": "ShihTzu"
+    },
+    {
+      "id": 62,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Orca"
+    },
+    {
+      "id": 63,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Hyena"
+    },
+    {
+      "id": 64,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Ferret"
+    },
+    {
+      "id": 65,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Ox",
+      "primalZodiac": "SunBear"
+    },
+    {
+      "id": 66,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Quetzal"
+    },
+    {
+      "id": 67,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "AngoraRabbit"
+    },
+    {
+      "id": 68,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Otter"
+    },
+    {
+      "id": 69,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Peacock"
+    },
+    {
+      "id": 70,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Swan"
+    },
+    {
+      "id": 71,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Fox"
+    },
+    {
+      "id": 72,
+      "westernZodiac": "Leo",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Wolverine"
+    },
+    {
+      "id": 73,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Crane"
+    },
+    {
+      "id": 74,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Porcupine"
+    },
+    {
+      "id": 75,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Goose"
+    },
+    {
+      "id": 76,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Axolotl"
+    },
+    {
+      "id": 77,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Elephant"
+    },
+    {
+      "id": 78,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Marmot"
+    },
+    {
+      "id": 79,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Butterfly"
+    },
+    {
+      "id": 80,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Vulture"
+    },
+    {
+      "id": 81,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Pelican"
+    },
+    {
+      "id": 82,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Clownfish"
+    },
+    {
+      "id": 83,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Ladybug"
+    },
+    {
+      "id": 84,
+      "westernZodiac": "Libra",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "TasmanianDevil"
+    },
+    {
+      "id": 85,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Tarsier"
+    },
+    {
+      "id": 86,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Firefly"
+    },
+    {
+      "id": 87,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Gecko"
+    },
+    {
+      "id": 88,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Cheetah"
+    },
+    {
+      "id": 89,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Moose"
+    },
+    {
+      "id": 90,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Zebra"
+    },
+    {
+      "id": 91,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Silkworm"
+    },
+    {
+      "id": 92,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Lemming"
+    },
+    {
+      "id": 93,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Ocelot"
+    },
+    {
+      "id": 94,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "LeafySeadragon"
+    },
+    {
+      "id": 95,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Frog"
+    },
+    {
+      "id": 96,
+      "westernZodiac": "Pisces",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Stingray"
+    },
+    {
+      "id": 97,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Dog",
+      "primalZodiac": "GoldenRetriever"
+    },
+    {
+      "id": 98,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Whale"
+    },
+    {
+      "id": 99,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Dove"
+    },
+    {
+      "id": 100,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Roadrunner"
+    },
+    {
+      "id": 101,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Raccoon"
+    },
+    {
+      "id": 102,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Camel"
+    },
+    {
+      "id": 103,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "SugarGlider"
+    },
+    {
+      "id": 104,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Skunk"
+    },
+    {
+      "id": 105,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Swordfish"
+    },
+    {
+      "id": 106,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Tortoise"
+    },
+    {
+      "id": 107,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Tarantula"
+    },
+    {
+      "id": 108,
+      "westernZodiac": "Sagittarius",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Mongoose"
+    },
+    {
+      "id": 109,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Octopus"
+    },
+    {
+      "id": 110,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Jaguar"
+    },
+    {
+      "id": 111,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Dragonfly"
+    },
+    {
+      "id": 112,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Raven"
+    },
+    {
+      "id": 113,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Platypus"
+    },
+    {
+      "id": 114,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Squid"
+    },
+    {
+      "id": 115,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Koala"
+    },
+    {
+      "id": 116,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Anaconda"
+    },
+    {
+      "id": 117,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Owl"
+    },
+    {
+      "id": 118,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Panda"
+    },
+    {
+      "id": 119,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Anglerfish"
+    },
+    {
+      "id": 120,
+      "westernZodiac": "Scorpio",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "HoneyBadger"
+    },
+    {
+      "id": 121,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Seagull"
+    },
+    {
+      "id": 122,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "Rattlesnake"
+    },
+    {
+      "id": 123,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Kangaroo"
+    },
+    {
+      "id": 124,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Ostrich"
+    },
+    {
+      "id": 125,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Ox",
+      "primalZodiac": "Yak"
+    },
+    {
+      "id": 126,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Wombat"
+    },
+    {
+      "id": 127,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Hedgehog"
+    },
+    {
+      "id": 128,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Squirrel"
+    },
+    {
+      "id": 129,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Beaver"
+    },
+    {
+      "id": 130,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Buffalo"
+    },
+    {
+      "id": 131,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Jackal"
+    },
+    {
+      "id": 132,
+      "westernZodiac": "Taurus",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Wolf"
+    },
+    {
+      "id": 133,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Dog",
+      "primalZodiac": "Salamander"
+    },
+    {
+      "id": 134,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Dragon",
+      "primalZodiac": "PolarBear"
+    },
+    {
+      "id": 135,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Horse",
+      "primalZodiac": "Giraffe"
+    },
+    {
+      "id": 136,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Monkey",
+      "primalZodiac": "Penguin"
+    },
+    {
+      "id": 137,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Ox",
+      "primalZodiac": "SeaStar"
+    },
+    {
+      "id": 138,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Pig",
+      "primalZodiac": "Gazelle"
+    },
+    {
+      "id": 139,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Rabbit",
+      "primalZodiac": "Earthworm"
+    },
+    {
+      "id": 140,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Rat",
+      "primalZodiac": "Mouse"
+    },
+    {
+      "id": 141,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Rooster",
+      "primalZodiac": "Corgi"
+    },
+    {
+      "id": 142,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Sheep",
+      "primalZodiac": "Flamingo"
+    },
+    {
+      "id": 143,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Snake",
+      "primalZodiac": "Jellyfish"
+    },
+    {
+      "id": 144,
+      "westernZodiac": "Virgo",
+      "easternZodiac": "Tiger",
+      "primalZodiac": "Narwhal"
+    }
+  ]
+}
