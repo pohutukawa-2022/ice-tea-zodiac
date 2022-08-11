@@ -1,6 +1,9 @@
-let day = 8
-let month = 5
-let year = 1983
+const fs = require('fs').promises
+const { doesNotMatch } = require('assert')
+const path = require('path')
+
+
+// This function returns western zodiac from day and month 
 
 function findWesternZodiac(day, month) {
 
@@ -16,7 +19,9 @@ function findWesternZodiac(day, month) {
   return signs[monthInput];
 };
 
-function getEasternZodiac(year) {
+// This function returns easternZodiac from year
+
+function findEasternZodiac(year) {
 
   const years = [
     'Rat',
@@ -34,16 +39,38 @@ function getEasternZodiac(year) {
   ]
 
   const ind = year % 12
-  let name
+  let easternZodiac
   if (ind > 3) {
-    name = years[ind - 4]
+    easternZodiac = years[ind - 4]
   } else {
-    name = years[ind + 8]
+    easternZodiac = years[ind + 8]
   }
-  if (!name) throw new Error(`Opps, error`)
-  return name
+  if (!easternZodiac) throw new Error(`Opps, error`)
+  return easternZodiac
+}
+
+// This function returns primal Zodiac from western & eastern zodiac based one primalZodiac.JSON
+
+async function getPrimalZodiac(westernZodiac, easternZodiac) {
+
+  const dataPath = path.join(__dirname, '/public/data/primalZodiac.json')
+  const zodiacContents = await fs.readFile(dataPath, 'utf-8')
+  const zodiacMetaData = await JSON.parse(zodiacContents)
+  const zodiacData = zodiacMetaData.zodiacMeta
+
+  let zodiacDataFocus = zodiacData.find((e) => (e.westernZodiac == westernZodiac && e.easternZodiac == easternZodiac))
+
+  let primalZodiac = zodiacDataFocus.primalZodiac
+  console.log(primalZodiac)
 }
 
 
+let day = 8
+let month = 5
+let year = 1983
+
 console.log(findWesternZodiac(day, month))
-console.log(getEasternZodiac(year))
+console.log(findEasternZodiac(year))
+getPrimalZodiac("Taurus", "Pig")
+
+// expected output: 12
