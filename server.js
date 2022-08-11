@@ -9,8 +9,8 @@ server.use(express.static('public'))
 server.use(express.urlencoded({ extended: false }))
 
 // Handlebars configuration
-server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
+server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 
 const mainRoute = require('./routes')
 server.use('/primalZodiac', mainRoute)
@@ -18,7 +18,7 @@ server.use('/primalZodiac', mainRoute)
 // Our main home route should go here
 
 server.get('/', async (req, res) => {
-  res.send('testing testing')
+  res.render('home')
 })
 
 module.exports = server
