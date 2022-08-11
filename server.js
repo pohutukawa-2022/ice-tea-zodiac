@@ -13,7 +13,7 @@ server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 
 const mainRoute = require('./routes')
-server.use('/puppies', mainRoute)
+server.use('/primalZodiac', mainRoute)
 
 // Our main home route should go here
 
