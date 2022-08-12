@@ -28,7 +28,9 @@ server.post('/:id', async (req, res) => {
   const contents = await fs.readFile(dataPath, `utf-8`)
   const data = JSON.parse(contents)
   console.log(data)
-  const zodiac = data.zodiacMeta
+  const zodiac = data.zodiacMeta.find(
+    (zodiacMeta) => zodiacMeta.id === Number(req.params.id)
+  )
 })
 
 module.exports = server
