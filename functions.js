@@ -62,7 +62,6 @@ function findEasternZodiac(year) {
 // This function returns primal Zodiac from western & eastern zodiac based one primalZodiac.JSON
 
 async function getPrimalZodiac(westernZodiac, easternZodiac) {
-
   const dataPath = path.join(__dirname, '/public/data/data.json')
   const zodiacContents = await fs.readFile(dataPath, 'utf-8')
   const zodiacMetaData = await JSON.parse(zodiacContents)
@@ -72,18 +71,23 @@ async function getPrimalZodiac(westernZodiac, easternZodiac) {
     (e) => e.westernZodiac == westernZodiac && e.easternZodiac == easternZodiac
   )
 
-  let primalZodiac = zodiacDataFocus.primalZodiac
-  console.log(primalZodiac)
+  // let primalZodiac = zodiacDataFocus.primalZodiac
+
+  return zodiacDataFocus
+  // let primalImage = zodiacDataFocus.imagePath
+  // let primalDesc = zodiacDataFocus.descPath
+  // console.log(primalZodiac)
+  // console.log(zodiacDataFocus.imagePath`${zodiacDataFocus.descPath}`)
 }
 
-let day = 8
+// let day = 8
 
-let month = 5
-let year = 1983
+// let month = 5
+// let year = 1983
 
-console.log(findWesternZodiac(day, month))
-console.log(findEasternZodiac(year))
-getPrimalZodiac('Taurus', 'Pig')
+// console.log(findWesternZodiac(day, month))
+// console.log(findEasternZodiac(year))
+// getPrimalZodiac()
 
 module.exports = {
   findWesternZodiac,
