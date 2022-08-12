@@ -62,6 +62,7 @@ function findEasternZodiac(year) {
 // This function returns primal Zodiac from western & eastern zodiac based one primalZodiac.JSON
 
 async function getPrimalZodiac(westernZodiac, easternZodiac) {
+
   const dataPath = path.join(__dirname, '/public/data/data.json')
   const zodiacContents = await fs.readFile(dataPath, 'utf-8')
   const zodiacMetaData = await JSON.parse(zodiacContents)
@@ -76,6 +77,7 @@ async function getPrimalZodiac(westernZodiac, easternZodiac) {
 }
 
 let day = 8
+
 let month = 5
 let year = 1983
 
