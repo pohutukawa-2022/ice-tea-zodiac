@@ -2,5 +2,10 @@ Panthers are one of the most well-liked of the Primal Zodiac signs. They are ver
 
 No matter what their current mood, Panthers are confident, and they have every reason to be. They are smart, creative thinkers with excellent leadership and social skills. They can be overbearing at times when they want things done their way, but most of the time others recognize that their ideas are good and that their hearts are in the right place. Paired with their natural charm, it’s hard not to want to do things a Panther’s way.
 
+<<<<<<< HEAD
 
 Balance is key for members of this sign. They have big ideas and thrive on accomplishment, but this can cause them to miss out on the more important things in life. They work very hard and stay focused on their goals, but this can cause them to burn out, especially if they don’t get the results they have worked so hard for. When this happens, the dark side comes out and they become moody, mean-spirited, and aloof - they exact opposite of their usual nature. Even their closest friends will be put off by this sudden change in temperament. Luckily, they tend to bounce back reasonably well and should soon be back on course toward their next goal.
+=======
+Balance is key for members of this sign. They have big ideas and thrive on accomplishment, but this can cause them to miss out on the more important things in life. They work very hard and stay focused on their goals, but this can cause them to burn out, especially if they don’t get the results they have worked so hard for. When this happens, the dark side comes out and they become moody, mean-spirited, and aloof - they exact opposite of their usual nature. Even their closest friends will be put off by this sudden change in temperament. Luckily, they tend to bounce back reasonably well and should soon be back on course toward their next goal.
+
+>>>>>>> 36d3416f8ddce66f6015ca8fd048f8729e7b064f
