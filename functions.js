@@ -55,7 +55,7 @@ function findEasternZodiac(year) {
   } else {
     easternZodiac = years[ind + 8]
   }
-  if (!easternZodiac) throw new Error(`Opps, error`)
+  // if (!easternZodiac) throw new Error(`Opps, error`)
   return easternZodiac
 }
 

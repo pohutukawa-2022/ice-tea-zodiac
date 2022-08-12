@@ -23,6 +23,34 @@ server.get('/', async (req, res) => {
   res.render('home')
 })
 
+server.get('/result/:id', async (req, res) => {
+  const dataPath = path.join(__dirname, '/public/data/data.json')
+  const contents = await fs.readFile(dataPath, `utf-8`)
+
+  const data = JSON.parse(contents)
+
+  const input = req.body
+  const zodiac = data.zodiacMeta
+  const starSign = functions.findWesternZodiac(input.month, input.day)
+  const animalYear = functions.findEasternZodiac(input.year)
+  const primal = await functions.getPrimalZodiac(starSign, animalYear)
+  const id = req.params.id
+
+  let whichZodiac = zodiac.find((x) => x.id == id)
+  const imgPath = whichZodiac.imagePath
+  const description = await fs.readFile(
+    path.join(__dirname, `public`, whichZodiac.descPath),
+    `utf-8`
+  )
+  console.log(whichZodiac)
+  const viewData = {
+    whichZodiac: whichZodiac,
+    imgPath: imgPath,
+    description,
+  }
+
+  res.render('imgdesc', viewData)
+})
 server.post('/', async (req, res) => {
   const dataPath = path.join(__dirname, '/public/data/data.json')
   // console.log(dataPath)
@@ -40,12 +68,13 @@ server.post('/', async (req, res) => {
   // console.log(starSign)
   // console.log(animalYear)
   const primal = await functions.getPrimalZodiac(starSign, animalYear)
-  const whichZodiac = primal.primalZodiac
-  console.log(whichZodiac)
-  const whichImage = primal.imagePath
-  console.log(whichImage)
-  const whichDesc = primal.descPath
-  console.log(whichDesc)
+  // const whichZodiac = primal.primalZodiac
+  // console.log(whichZodiac)
+  // const whichImage = primal.imagePath
+  // console.log(whichImage)
+  // const whichDesc = primal.descPath
+  // console.log(whichDesc)
+  res.redirect(`/result/${primal.id}`)
   // const whichZodiac = zodiac.find((x) => x.name === `${primal}`)
   // console.log(whichZodiac)
 
