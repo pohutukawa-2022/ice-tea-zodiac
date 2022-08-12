@@ -57,28 +57,6 @@ server.post('/', async (req, res) => {
   const contents = await fs.readFile(dataPath, `utf-8`)
   // console.log(contents)
   const data = JSON.parse(contents)
-  // console.log(data)
-  const input = req.body
-  // console.log(input)
-  // console.log(input.year)
-  const zodiac = data.zodiacMeta
-
-  const starSign = functions.findWesternZodiac(input.month, input.day)
-  const animalYear = functions.findEasternZodiac(input.year)
-  // console.log(starSign)
-  // console.log(animalYear)
-  const primal = await functions.getPrimalZodiac(starSign, animalYear)
-  // const whichZodiac = primal.primalZodiac
-  // console.log(whichZodiac)
-  // const whichImage = primal.imagePath
-  // console.log(whichImage)
-  // const whichDesc = primal.descPath
-  // console.log(whichDesc)
-  res.redirect(`/result/${primal.id}`)
-  // const whichZodiac = zodiac.find((x) => x.name === `${primal}`)
-  // console.log(whichZodiac)
-
-  // console.log(zodiac)
 })
 
 module.exports = server
