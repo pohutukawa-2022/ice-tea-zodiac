@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index --ignore public/data/primalZodiac.json",
+    "dev": "nodemon index",
     "test": "jest --watchAll",
     "lint": "eslint ."
   },

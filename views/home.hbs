@@ -1,3 +1,9 @@
+<!--Grid row-->
+<div class="row d-flex justify-content-center">
+
+  <!--Grid column-->
+  <div class="col-md-6">
+<!--Grid row-->
 <div class='userInstruction'>
   <h1>Primal Zodiac</h1>
   <p>Welcome to IceTea™ Primal Zodiac index!</p>
@@ -6,6 +12,35 @@
   <p>Enter your details below to find your primal zodiac animal nature!</p>
   <br />
 </div>
+  <div class='inputs'>
+    <form class='form' action='/' method='post'>
+      <label for='name' class='form-item'>
+        Name:
+        <input class="form-control" type="text"aria-label="default input example" name='name' value='' />
+      </label>
+      <br>
+      <label for='year' class='form-item'>
+        Birth Year:
+        <input class="form-control" type="text"aria-label="default input example" name='year' value='' />
+      </label>
+      <br>
+      <label for='month' class='form-item'>
+        Birth Month:
+        <input class="form-control" type="text"aria-label="default input example"name='month' value='' />
+      </label>
+      <br>    
+      <label for='day' class='form-item'>
+        Birth Day:
+        <input class="form-control" type="text"aria-label="default input example" name='day' value='' />
+      </label>
+      <br><br>
+      {{!-- <input type='submit' name='' value='submit' /> --}}
+      <button type="submit" value='submit' class="btn btn-outline-Dark">Submit</button>
+
+    </form>
+  </div>
+</div>
+  <!--Grid column-->
 <div class='inputs'>
   <form class='form' action='/' method='post'>
     <label for='name' class='form-item'>
@@ -19,16 +54,18 @@
     </label>
 
     <label for='month' class='form-item'>
+ 
       Birth Day:
+      Birth Month:
       <input type='text' name='month' value='' />
     </label>
 
     <label for='day' class='form-item'>
       Birth Month:
+      Birth Day:
       <input type='text' name='day' value='' />
     </label>
 
     <input type='submit' name='' value='submit' />
 
-  </form>
 </div>
