@@ -74,7 +74,6 @@ server.post('/', async (req, res) => {
   const primal = await functions.getPrimalZodiac(starSign, animalYear)
 
   res.redirect(`/result/${primal.id}`)
-
 })
 
 module.exports = server
