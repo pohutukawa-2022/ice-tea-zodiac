@@ -5,10 +5,20 @@
 body {
   background-image: url(/images/pretty.gif);
   background-size: cover;
-  height: 100vh;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  height: 100%;
   padding:0;
   margin:0;
 }
+
+/* background {
+  position: relative;
+  width: 85%;
+  height: 610px;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 p {
   padding-top: 20px;
@@ -19,7 +29,12 @@ font-size: 40px; ;
 }
 
  #header{
-  font-size: 100px;
+  font-size: 110px;
+}
+
+.inputClass {
+  width: 30%;
+  height: 40%;
 }
 
 .container {
@@ -53,7 +68,7 @@ font-size: 40px; ;
 }
 
 .form {
-  font-size: 2.7vh;
+  font-size: 2.3vh;
   padding: 20px 20px 0px 20px;
 }
 
@@ -86,12 +101,16 @@ font-size: 40px; ;
   background-color: transparent;
   background-image: none;
   color: white;
-  /* border-color: #343a40; */
   margin-bottom: 80px;
 }
 
 .button:hover {
-  /* opacity: 50%; */
   text-decoration: underline white;
   backdrop-filter: blur(60px); 
+}
+
+.button:focus {
+  transition: .3s;
+  border-color:dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
 }
