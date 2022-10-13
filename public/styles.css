@@ -3,22 +3,14 @@
 }
 
 body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;   background-size: cover;
   background-image: url(/images/pretty.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* width: 100%; */
   height: 100%;
   padding:0;
   margin:0;
 }
-
-/* background {
-  position: relative;
-  width: 85%;
-  height: 610px;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 p {
   padding-top: 20px;
@@ -26,6 +18,11 @@ p {
 }
 h3 {
 font-size: 40px; ;
+}
+
+input {
+  height: 50px;
+  font-size: 1.7vh;
 }
 
  #header{
@@ -68,7 +65,7 @@ font-size: 40px; ;
 }
 
 .form {
-  font-size: 2.3vh;
+  font-size: 20px;
   padding: 20px 20px 0px 20px;
 }
 
@@ -94,7 +91,7 @@ font-size: 40px; ;
   user-select: none;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -113,4 +110,23 @@ font-size: 40px; ;
   transition: .3s;
   border-color:dodgerblue;
   box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
+@media (max-width: 480px) {
+  body {
+    background-image: url(images/pretty.gif);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-image: url(images/pretty.gif);
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    background-image: url(images//pretty.gif);
+	}
 }
