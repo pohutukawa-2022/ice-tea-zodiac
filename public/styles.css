@@ -37,7 +37,7 @@ input {
 .container {
   margin: 25px;
   width: 350px;
-  height: 1350px;
+  height: 1500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
