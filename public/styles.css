@@ -45,16 +45,12 @@ input {
 }
 
 .textContainer {
-  width: 1000px; 
+  width: 65%; 
   margin: 0 auto;
   border-radius: 2%;
   backdrop-filter: blur(60px); 
   border-color: #343a40;
   border: 1px solid #343a40;
-  color: black;
-}
-.textContainer:hover {
-  color: white;
 }
 
 .image {
