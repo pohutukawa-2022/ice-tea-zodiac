@@ -99,10 +99,10 @@ input {
 }
 
 .button:hover {
-  text-decoration: underline white;
   backdrop-filter: blur(60px); 
-  border-color:dodgerblue;
+  border-color:rgb(15, 216, 119);
   box-shadow: 0 0 8px 0 dodgerblue;
+  transform:scale(1.07);
 }
 
 .button:focus {
