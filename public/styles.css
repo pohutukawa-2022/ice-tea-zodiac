@@ -135,3 +135,86 @@ input {
     background-image: url(images//pretty.gif);
 	}
 }
+@media (max-width: 480px) {
+  body {
+    background-position: center top; 
+    padding: 10px; 
+  }
+  p {
+    font-size: 14px; 
+  }
+  h3 {
+    font-size: 24px; 
+  }
+  input {
+    height: 40px; 
+    font-size: 14px; 
+  }
+  #header {
+    font-size: 80px; 
+  }
+  .inputClass {
+    width: 50%; 
+  }
+  .container {
+    width: 90%; 
+  }
+  .textContainer {
+    width: 90%; 
+  }
+  .image {
+    height: 250px;
+    width: 300px; 
+  }
+  .form {
+    font-size: 16px; 
+  }
+  .button {
+    font-size: 18px; 
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  
+  p {
+    font-size: 16px; 
+  }
+  h3 {
+    font-size: 28px; 
+  }
+  input {
+    height: 45px; 
+    font-size: 16px;
+  }
+  #header {
+    font-size: 90px; 
+  }
+  .inputClass {
+    width: 60%; 
+  }
+  .container {
+    width: 80%;
+  }
+  .textContainer {
+    width: 80%; 
+  }
+  .image {
+    height: 300px; 
+    width: 350px;
+  }
+  .form {
+    font-size: 18px;
+  }
+  .button {
+    font-size: 20px; 
+  }
+}
+
+@media (min-width: 1025px) {
+  p {
+    font-size: 18px; 
+  }
+  h3 {
+    font-size: 32px;
+  }
+}
